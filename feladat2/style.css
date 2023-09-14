@@ -1,0 +1,74 @@
+:root{
+    --magassag: 200px;
+    --szelesseg: 23%;
+    --margo: 10px;
+    --lila: purple;
+    --kek: rgb(169, 215, 252);
+    --vkek: rgb(0, 238, 255);
+    --brit: rgb(0, 88, 69);
+    --rozsa: rgb(253, 98, 183);
+    --bor: rgb(255, 175, 182);
+    --srozsa: rgb(255, 0, 221);
+    --barna: rgb(187, 79, 79);
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.egy{
+    height: var(--magassag);
+    width: var(--szelesseg);
+    margin: var(--margo);
+    background-color: var(--lila);
+}
+
+.ketto{
+    height: var(--magassag);
+    width: var(--szelesseg);
+    margin: var(--margo);
+    background-color: var(--kek);
+}
+
+.harom{
+    height: var(--magassag);
+    width: var(--szelesseg);
+    margin: var(--margo);
+    background-color: var(--vkek);
+}
+
+.negy{
+    height: var(--magassag);
+    width: var(--szelesseg);
+    margin: var(--margo);
+    background-color: var(--brit);
+}
+
+.ot{
+    height: var(--magassag);
+    width: var(--szelesseg);
+    margin: var(--margo);
+    background-color: var(--rozsa);
+}
+
+.hat{
+    height: var(--magassag);
+    width: var(--szelesseg);
+    margin: var(--margo);
+    background-color: var(--bor);
+}
+
+.het{
+    height: var(--magassag);
+    width: var(--szelesseg);
+    margin: var(--margo);
+    background-color: var(--srozsa);
+}
+
+.nyolc{
+    height: var(--magassag);
+    width: var(--szelesseg);
+    margin: var(--margo);
+    background-color: var(--barna);
+}
