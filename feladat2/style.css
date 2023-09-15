@@ -10,6 +10,7 @@
     --bor: rgb(255, 175, 182);
     --srozsa: rgb(255, 0, 221);
     --barna: rgb(187, 79, 79);
+    --hatterszin: white;
 }
 
 .flex-container{
@@ -17,58 +18,21 @@
     flex-wrap: wrap;
 }
 
-.egy{
+.egy, .ketto, .harom, .negy, .ot, .hat, .het, .nyolc {
     height: var(--magassag);
     width: var(--szelesseg);
     margin: var(--margo);
-    background-color: var(--lila);
 }
 
-.ketto{
-    height: var(--magassag);
-    width: var(--szelesseg);
-    margin: var(--margo);
-    background-color: var(--kek);
-}
+.egy { background-color: var(--lila); }
+.ketto { background-color: var(--kek); }
+.harom { background-color: var(--vkek); }
+.negy { background-color: var(--brit); }
+.ot { background-color: var(--rozsa); }
+.hat { background-color: var(--bor); }
+.het { background-color: var(--srozsa); }
+.nyolc { background-color: var(--barna); }
 
-.harom{
-    height: var(--magassag);
-    width: var(--szelesseg);
-    margin: var(--margo);
-    background-color: var(--vkek);
-}
-
-.negy{
-    height: var(--magassag);
-    width: var(--szelesseg);
-    margin: var(--margo);
-    background-color: var(--brit);
-}
-
-.ot{
-    height: var(--magassag);
-    width: var(--szelesseg);
-    margin: var(--margo);
-    background-color: var(--rozsa);
-}
-
-.hat{
-    height: var(--magassag);
-    width: var(--szelesseg);
-    margin: var(--margo);
-    background-color: var(--bor);
-}
-
-.het{
-    height: var(--magassag);
-    width: var(--szelesseg);
-    margin: var(--margo);
-    background-color: var(--srozsa);
-}
-
-.nyolc{
-    height: var(--magassag);
-    width: var(--szelesseg);
-    margin: var(--margo);
-    background-color: var(--barna);
+body {
+    background-color: var(--hatterszin);
 }

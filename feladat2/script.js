@@ -1,6 +1,11 @@
-const root = document.querySelector(':root')
-const rootStyle = getComputedStyle(root)
-const color1 = rootStyle.getPropertyValue('--color1')
-console.log(color1)
+const colorPicker = document.getElementById('colorPicker');
+const changeColorButton = document.getElementById('changeColorButton');
 
-root.style.setProperty(colorVar, newColor)
+changeColorButton.addEventListener('click', () => {
+  const selectedColor = colorPicker.value;
+  changeBackgroundColor(selectedColor);
+});
+
+function changeBackgroundColor(newColor) {
+  document.documentElement.style.setProperty('--hatterszin', newColor);
+}
